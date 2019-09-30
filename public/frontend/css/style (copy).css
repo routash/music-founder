@@ -1,0 +1,173 @@
+body{margin:0;padding:0;font-family: 'Poppins', sans-serif;font-size:14px;font-weight:400;}
+h1,h2,h3,h4,h5,h6{margin:0;}
+ul{list-style:none;padding:0;margin:0;}
+p{margin:0;}
+a:hover{text-decoration:none;transition: 0.4s;}
+.form-control:focus{box-shadow:none;}
+.container{max-width:1170px;}
+button:focus{outline:none;}
+button:hover{transition: 0.4s;}
+button{cursor:pointer;}
+
+/* login page css start */
+.navbar-toggler {background: #fff;}
+.login-main .bg img{position:fixed;right:0;height:100%;}
+.login-main .login-inn {background: #fff;box-shadow: 0px 0px 12px #A1A1A1;position: relative;top:38px;}
+.login-main .login-left{background:url("../images/inner-bg.png");text-align:center;min-height:570px;padding:35px 50px;}
+.login-main .login-left h3{font-size:60px;color:#fff;text-transform:uppercase;font-weight:300;}
+.login-main .login-left p{font-size:24px;color:#fff;line-height:35px;font-weight:300;padding:35px 0;}
+.login-main .login-left h4{font-size:25px;color:#fff;font-weight:600;margin-bottom:30px;}
+.login-inn .col-sm-7.padd-right{padding-right:0;}
+.login-right{padding:35px 0 0;}
+.login-right .logo{text-align:center;margin-bottom:45px;}
+.login-right .login-right-inn{padding:0 40px;}
+.login-right .login-right-inn h4{text-align:center;font-size:20px;color:#697578;text-transform:uppercase;font-weight:500;margin-bottom:40px;}
+.login-right .login-right-inn input[type="text"]{background:#fcfcfc;border:1px solid #ececec;width:100%;height:48px;border-radius:50px;padding:0 20px;margin-bottom:12px;}
+.login-right .login-right-inn input:focus{border:1px solid #4d7e83;transition:0.8s;}
+.login-right .login-right-inn button{width:65px;height:65px;background:#ef4639;border-radius:50%;border:0;box-shadow: 2px 0px 7px #A1A1A1;}
+.login-right .login-right-inn button:hover{background:#4d7e83;transition:0.8s;}
+.login-right .login-right-inn button i{font-size:40px;color:#fff;}
+.login-inn .col-sm-5.padd-left{padding-left:0;}
+.login-right .dont-have{border-top:1px solid #f2f2f2;margin-top:100px;float:left;width:100%;}
+.login-right .dont-have p{text-align:center;font-size:16px;color:#a6a6a6;font-weight:400;padding: 17px 0;}
+.login-right .dont-have p a{color:#ee4639;}
+
+/* login page css close */
+
+/* index page css start */
+
+.nav-main{background:#ef4639;}
+.nav-main .navbar.navbar-expand-lg.navbar-light{padding: 0;}
+.nav-main .navbar-brand {border-right: 1px solid #fa6054;padding-right: 25px;line-height: 53px;}
+#navbarSupportedContent li {margin-right: 30px;}
+.nav-main #navbarSupportedContent li a{font-size:16px;color:#fff;}
+.nav-main #navbarSupportedContent li a:hover{color:#eeeeee;}
+.nav-main #navbarSupportedContent li a i{margin-right:7px;}
+.search-main{background: #f8594d;height: 38px;border-radius: 50px;width:230px;}
+.nav-main #navbarSupportedContent input[type="text"]{background:none;border: 0;color:#ffd0cc;font-style:italic;padding:9px 15px;position: relative;width: 85%;}
+.nav-main #navbarSupportedContent input[type="text"]:focus{outline: none;}
+.nav-main #navbarSupportedContent {padding: 12px 0;}
+.nav-main #navbarSupportedContent button {background: none;border: 0;color: #fff;font-size: 15px;padding:0;}
+
+.nav-main #navbarSupportedContent input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ffd0cc;
+}
+ 
+
+.search-main.search-main2{background:#fff;}
+.search-main.search-main2 i{color:#ef4639;}
+.nav-main .nav-right {margin-left: 50px;}
+.nav-main .nav-right span{width:35px;height:35px;background:#ffffff;border-radius:50px;text-align: center;display: inline-block;margin-right: 10px;}
+.nav-main .nav-right span i{color:#ef4639;padding: 9px 0;font-size: 16px;}
+.nav-main .nav-right a {display: inline-block;background: #fff;font-size:14px;color:#ef4639;padding: 9px 27px;border-radius: 50px;}
+.content-part{padding-top:40px;}
+.content-part .twiter-left1{background:#f5f5f5;}
+.content-part .twiter-left1 .user-top{background:#4c7d82;height:120px;}
+.user-img{padding:0 15px;}
+.user-img-upload input {display: none;}
+.user-img-upload label{width:95px;height:95px;border:2px solid #f5f5f5;background:#ef4639;text-align: center;border-radius: 50px;padding: 29px 0;margin-top: -45px;cursor:pointer;float: left;}
+.user-img-upload label i{font-size:32px;color:#fff;}
+.user-img-upload {display: inline-block;}
+.user-img .twet-nam{display: inline-block;margin: 5px;}
+.user-img .twet-nam h4{font-size:18px;color:#605655;}
+.user-img .twet-nam h5{font-size:32px;color:#989da1;font-weight:300;}
+.user-name{border-top:1px solid #eaeaea;padding: 12px 18px;margin-top:10px;}
+.user-name h3{font-size:26px;color:#ef4639;}
+.user-name h4{font-size:14px;color:#605655;margin-top: 4px;}
+.twiter-left1.mar-top.padd{margin: 20px 0;padding:20px;}
+.twiter-left1.pic-profile h4{font-size:18px;color:#605655;}
+.twiter-left1.pic-profile p{font-size:12px;color:#989da1;}
+.prog{background:#e6e6e6;border-radius:10px;height:6px;overflow: hidden;margin:22px 0 2px;}
+.prog-inn{width:30%;background:#ef4639;height:6px;}
+.skip {background: #898989;font-size: 14px;color: #fff;padding: 10px 25px;display: inline-block;border-radius: 30px;margin-left: 3px;margin-top:25px;}
+.skip.add-photo{background:#ef4639;}
+.skip:hover{color:#fff;background:#4f5661;}
+.twiter-left1.pic-profile.trend h4{display:inline-block;}
+.twiter-left1.pic-profile.trend a{float:right;color:#ef4639;}
+.twiter-left1.pic-profile.trend a:hover{color:#4f5661;}
+.twiter-left1.pic-profile.trend ul{margin-top:25px;}
+.twiter-left1.pic-profile.trend ul li{margin-bottom:15px;}
+.twiter-left1.pic-profile.trend ul li:last-child{margin-bottom:0;}
+.twiter-left1.pic-profile.trend ul li a {float: left;font-size:14px;}
+.twiter-left1.pic-profile.trend ul li h4 {font-size:14px;color:#605655;width: 100%;}
+.mar-top{margin: 20px 0;}
+.padd{padding: 20px;border:0;}
+.twit-mid-img{width:55px;height:55px;background:#e0e0e0;border-radius:50px;text-align: center;position:relative;display: inline-block;}
+.twit-mid-img img {position: absolute;bottom: 6px;left: 0;right: 0;margin: auto;}
+.twi-mid-right{display: inline-block;width: 88%;padding-left: 15px;vertical-align: top;}
+.twi-mid-right textarea{background:#fbfbfb;border:1px solid #e7e7e7;width: 100%;height:65px;border-radius:5px;padding: 10px;color:#9e9e9e;}
+.mid-icon i{font-size:27px;color:#a9adb5;margin: 0 12px;vertical-align: middle;}
+.mid-icon button {background: #ef4639;color: #fff;border: 0;padding: 8px 28px;border-radius: 35px;margin-left: 12px;}
+.mid-icon button:hover{background:#4f5661;}
+.mid-icon {float: right;margin: 10px 0 0;}
+.twiter-left1.what-spark.padd {padding: 30px;}
+.twiter-left1.what-spark h3{font-size:27px;color:#605655;font-weight:600;}
+.twiter-left1.what-spark p{font-size:14px;color:#989da1;margin:15px 0 35px;}
+.twiter-left1.what-spark button{background: #ef4639;
+color: #fff;font-size: 14px;border: 0;padding: 11px 35px;border-radius: 30px;}
+.twiter-left1.what-spark button:hover{background:#4f5661;}
+.who-follow span{width:50px;height:50px;border-radius:30px;background:#dfdfdf;display:block;text-align:center;position: relative;display:inline-block;margin-right: 8px;}
+.who-follow span img {position: absolute;bottom: 7px;left: 0;right: 0;margin: auto;}
+.who-follow-right{vertical-align:top;display: inline-block;}
+.who-follow-right h3{font-size:14px;color:#605655;margin-bottom: 8px;}
+.who-follow-right button{font-size:13px;color:#959595;border:1px solid #b9b9b9;border-radius:30px;padding: 4px 25px;}
+.who-follow-right button:hover{background:#ef4639;color:#fff;border:1px solid #ef4639;}
+.twiter-left1.pic-profile.trend.who-follow{border:0;}
+.twiter-left1.pic-profile.trend.who-follow h4 {margin-bottom: 20px;}
+.who-follow {border-bottom: 1px solid #dfdfdf;margin-bottom:12px;padding-bottom:12px;}
+.who-follow:last-child{border:0;margin:0;}
+.twiter-left1.pic-profile.about-help p {padding: 20px;font-size: 13px;line-height:22px;}
+.twiter-left1.pic-profile.about-help p a{color:#ef4639;}
+.twiter-left1.pic-profile.about-help h4{font-size: 14px;color: #959595;text-align: center;border-top: 1px solid #e3e3e3;padding: 15px 0;}
+.home-feed-main{background:#f5f5f5;}
+.tweet{border-bottom:1px solid #d8d8d8;}
+.tweet-inn{padding:20px;}
+.tweet-right a{color:#555c60;font-size:18px;} 
+.tweet-right a:hover{color:#ef4639;}
+.tweet-inn .col-sm-10.padd-left{padding-left:0;}
+.tweet-right h4{color:#555c60;font-size:14px;font-weight:300;margin:3px 0;} 
+a.ben{font-size: 14px;color:#ef4639;font-weight:300;margin: 7px 0;display:inline-block;}
+.tweet-right p{font-size:14px;color:#8d9499;line-height:22px;font-weight:300;}
+.tweet-right-img{background:#ddd;margin:10px 0;border-radius:4px;overflow:hidden;}
+.tweet-right-btm-icon{padding: 12px 0;}
+.tweet-right-btm-icon li {display: inline-block;margin-right:32px;}
+.tweet-right-btm-icon li a{color:#53585d;font-size:16px;font-weight: 500;}
+.tweet-right-btm-icon li a i{margin-right: 8px;font-size: 23px;vertical-align: middle;}
+
+/* index page css close */
+
+/* sports page css start */
+
+.nav2{background:#fbfbfb;border-bottom:1px solid #e7eaf1;}
+.nav2-left {display: inline-block;}
+.nav2 li a.active{background:#e2e7ed;}
+.nav2 ul{display:inline-block;}
+.nav2 li{display:inline-block;}
+.nav2 li a{font-size:14px;color:#798187;padding: 17px 25px;display: block;}
+.nav2 li a:hover{background:#e2e7ed;}
+.nav2 button{background:#ffffff;border:1px solid #e0e5ec;font-size:14px;color:#ef4639;border-radius: 30px;padding: 7px 32px;float: right;margin: 9px 0;}
+.nav2 button:hover{background:#ef4639;color:#fff;border:1px solid #ef4639;}
+.sports-main{padding:45px 0;}
+.sports1{background:#f5f5f5;margin-bottom:30px;}
+.sports1-top-img{background:#e9e9e9;height:295px;overflow:hidden;}
+.sports1-top-img img{width:100%;height:100%;}
+.sports1-inn{padding:20px;}
+.sports1-inn h3{font-size:18px;color:#605655;font-weight:500;line-height:22px;}
+.sports1-inn p{font-size:14px;color:#989da1;line-height:22px;margin:15px 0 25px;font-weight: 300;}
+.sports1-inn h4{display:inline-block;font-size:14px;color:#989da1;font-weight: 300;}
+.sports1-inn h5{display:inline-block;font-size:14px;color:#989da1;float: right;font-weight: 300;}
+.sports1.sport2 .sports1-top-img{width:200px;height:230px;display: inline-block;}
+.sports1.sport2 .sports1-top-img img{width:100%;height:100%;}
+.sports1-inn.sport2{padding: 15px;display: inline-block;vertical-align: top;width: 63%;}
+
+/* sports page css close */
+
+/* notifications page css start */
+
+.twiter-left1.pic-profile.about-help.ad-twiter {padding: 20px;}
+.twiter-left1.pic-profile.about-help.ad-twiter p{padding:0;margin-bottom: 15px;}
+.twiter-left1.pic-profile.about-help.ad-twiter h4{border:0;}
+.twiter-left1.pic-profile.about-help.ad-twiter button{background: #ef4639;
+color: #fff;font-size: 14px;border: 0;display: block;text-align: center;width: 100%;padding: 12px 0;border-radius: 35px;}
+
+/* notifications page css close */

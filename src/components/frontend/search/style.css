@@ -1,0 +1,56 @@
+body{
+        background-color: #eee;
+    }
+    form.search-form {
+        text-align: center;
+        display: -webkit-inline-box;
+    }
+    .search-form input#keyword {
+        width: 315px;
+        border-radius: 0px;
+    }
+    .search-section {
+        padding-top:50px; 
+        text-align: center;
+    }
+    .search-form button.btn.btn-primary {
+        border-radius: 0;
+        margin-left: 4px;
+    }
+    .col-md-12.music-list {
+        display: inline-table;
+    }
+    .col-md-3.music-sec {
+        display: inline-block;
+        padding: 0;
+    }
+    .col-md-12.music-list {
+        display: inline-table;
+        padding: 25px 0px;
+    }
+    .music-content {
+        background: #fff;
+        box-shadow: 2px 2px 5px #ccc;
+        padding: 10px;
+        margin: 5px 5px;
+        display: flow-root;
+    }
+    .music-image {
+        float: left;
+        margin-right: 8px;
+    }
+    .music-title-sec {
+        float: left;
+        display: contents;
+    }
+    .music-content a{
+        float: right;
+    }
+    @media (min-width: 1024px){
+        .music-list .col-md-3 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+            max-width: 20%;
+        }
+    }
